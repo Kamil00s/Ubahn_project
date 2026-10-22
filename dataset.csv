@@ -1,0 +1,431 @@
+from;to;action;cost_min;line;station;from_lat;from_lon;to_lat;to_lon
+U1:Uhlandstraße;U1:Kurfürstendamm;travel;1,4;U1;;52,5025;13,325555555;52,504166666;13,332777777
+U1:Kurfürstendamm;U1:Uhlandstraße;travel;1,4;U1;;52,504166666;13,332777777;52,5025;13,325555555
+U1:Kurfürstendamm;U1:Wittenbergplatz;travel;1,8;U1;;52,504166666;13,332777777;52,501944444;13,343055555
+U1:Wittenbergplatz;U1:Kurfürstendamm;travel;1,8;U1;;52,501944444;13,343055555;52,504166666;13,332777777
+U1:Wittenbergplatz;U1:Möckernbrücke;travel;5,8;U1;;52,501944444;13,343055555;52,499166666;13,382777777
+U1:Möckernbrücke;U1:Wittenbergplatz;travel;5,8;U1;;52,499166666;13,382777777;52,501944444;13,343055555
+U1:Möckernbrücke;U1:Hallesches Tor;travel;1,5;U1;;52,499166666;13,382777777;52,497777777;13,391111111
+U1:Hallesches Tor;U1:Möckernbrücke;travel;1,5;U1;;52,497777777;13,391111111;52,499166666;13,382777777
+U1:Hallesches Tor;U1:Prinzenstraße;travel;2,4;U1;;52,497777777;13,391111111;52,498333333;13,406111111
+U1:Prinzenstraße;U1:Hallesches Tor;travel;2,4;U1;;52,498333333;13,406111111;52,497777777;13,391111111
+U1:Prinzenstraße;U1:Kottbusser Tor;travel;2;U1;;52,498333333;13,406111111;52,499166666;13,418055555
+U1:Kottbusser Tor;U1:Prinzenstraße;travel;2;U1;;52,499166666;13,418055555;52,498333333;13,406111111
+U1:Kottbusser Tor;U1:Görlitzer Bahnhof;travel;1,7;U1;;52,499166666;13,418055555;52,4992;13,428
+U1:Görlitzer Bahnhof;U1:Kottbusser Tor;travel;1,7;U1;;52,4992;13,428;52,499166666;13,418055555
+U1:Görlitzer Bahnhof;U1:Schlesisches Tor;travel;2,2;U1;;52,4992;13,428;52,500833333;13,441666666
+U1:Schlesisches Tor;U1:Görlitzer Bahnhof;travel;2,2;U1;;52,500833333;13,441666666;52,4992;13,428
+U1:Schlesisches Tor;U1:Warschauer Straße;travel;1,7;U1;;52,500833333;13,441666666;52,505083333;13,449047222
+U1:Warschauer Straße;U1:Schlesisches Tor;travel;1,7;U1;;52,505083333;13,449047222;52,500833333;13,441666666
+U2:Pankow;U2:Vinetastraße;travel;2,1;U2;;52,5667;13,4111;52,559166666;13,413333333
+U2:Vinetastraße;U2:Pankow;travel;2,1;U2;;52,559166666;13,413333333;52,5667;13,4111
+U2:Vinetastraße;U2:Schönhauser Allee;travel;2,5;U2;;52,559166666;13,413333333;52,549329;13,413706
+U2:Schönhauser Allee;U2:Vinetastraße;travel;2,5;U2;;52,549329;13,413706;52,559166666;13,413333333
+U2:Schönhauser Allee;U2:Eberswalder Straße;travel;2,1;U2;;52,549329;13,413706;52,541666666;13,412222222
+U2:Eberswalder Straße;U2:Schönhauser Allee;travel;2,1;U2;;52,541666666;13,412222222;52,549329;13,413706
+U2:Eberswalder Straße;U2:Senefelderplatz;travel;2,4;U2;;52,541666666;13,412222222;52,5325;13,4125
+U2:Senefelderplatz;U2:Eberswalder Straße;travel;2,4;U2;;52,5325;13,4125;52,541666666;13,412222222
+U2:Senefelderplatz;U2:Rosa-Luxemburg-Platz;travel;1,3;U2;;52,5325;13,4125;52,528333333;13,410277777
+U2:Rosa-Luxemburg-Platz;U2:Senefelderplatz;travel;1,3;U2;;52,528333333;13,410277777;52,5325;13,4125
+U2:Rosa-Luxemburg-Platz;U2:Alexanderplatz;travel;1,9;U2;;52,528333333;13,410277777;52,521388888;13,411944444
+U2:Alexanderplatz;U2:Rosa-Luxemburg-Platz;travel;1,9;U2;;52,521388888;13,411944444;52,528333333;13,410277777
+U2:Alexanderplatz;U2:Klosterstraße;travel;1,5;U2;;52,521388888;13,411944444;52,516111111;13,412222222
+U2:Klosterstraße;U2:Alexanderplatz;travel;1,5;U2;;52,516111111;13,412222222;52,521388888;13,411944444
+U2:Klosterstraße;U2:Märkisches Museum;travel;1,4;U2;;52,516111111;13,412222222;52,511944444;13,408888888
+U2:Märkisches Museum;U2:Klosterstraße;travel;1,4;U2;;52,511944444;13,408888888;52,516111111;13,412222222
+U2:Märkisches Museum;U2:Spittelmarkt;travel;1,1;U2;;52,511944444;13,408888888;52,511111111;13,403611111
+U2:Spittelmarkt;U2:Märkisches Museum;travel;1,1;U2;;52,511111111;13,403611111;52,511944444;13,408888888
+U2:Spittelmarkt;U2:Mohrenstraße;travel;2,9;U2;;52,511111111;13,403611111;52,51167;13,38472
+U2:Mohrenstraße;U2:Spittelmarkt;travel;2,9;U2;;52,51167;13,38472;52,511111111;13,403611111
+U2:Mohrenstraße;U2:Potsdamer Platz;travel;1,7;U2;;52,51167;13,38472;52,5094;13,3758
+U2:Potsdamer Platz;U2:Mohrenstraße;travel;1,7;U2;;52,5094;13,3758;52,51167;13,38472
+U2:Potsdamer Platz;U2:Gleisdreieck;travel;2,8;U2;;52,5094;13,3758;52,498333333;13,375277777
+U2:Gleisdreieck;U2:Potsdamer Platz;travel;2,8;U2;;52,498333333;13,375277777;52,5094;13,3758
+U2:Gleisdreieck;U2:Bülowstraße;travel;2;U2;;52,498333333;13,375277777;52,497552777;13,363419444
+U2:Bülowstraße;U2:Gleisdreieck;travel;2;U2;;52,497552777;13,363419444;52,498333333;13,375277777
+U2:Bülowstraße;U2:Nollendorfplatz;travel;1,7;U2;;52,497552777;13,363419444;52,499166666;13,353888888
+U2:Nollendorfplatz;U2:Bülowstraße;travel;1,7;U2;;52,499166666;13,353888888;52,497552777;13,363419444
+U2:Nollendorfplatz;U2:Wittenbergplatz;travel;1,9;U2;;52,499166666;13,353888888;52,501944444;13,343055555
+U2:Wittenbergplatz;U2:Nollendorfplatz;travel;1,9;U2;;52,501944444;13,343055555;52,499166666;13,353888888
+U2:Wittenbergplatz;U2:Zoologischer Garten;travel;3;U2;;52,501944444;13,343055555;52,512;13,332
+U2:Zoologischer Garten;U2:Wittenbergplatz;travel;3;U2;;52,512;13,332;52,501944444;13,343055555
+U2:Zoologischer Garten;U2:Ernst-Reuter-Platz;travel;1,7;U2;;52,512;13,332;52,511944444;13,322222222
+U2:Ernst-Reuter-Platz;U2:Zoologischer Garten;travel;1,7;U2;;52,511944444;13,322222222;52,512;13,332
+U2:Ernst-Reuter-Platz;U2:Deutsche Oper;travel;1,9;U2;;52,511944444;13,322222222;52,511944444;13,310555555
+U2:Deutsche Oper;U2:Ernst-Reuter-Platz;travel;1,9;U2;;52,511944444;13,310555555;52,511944444;13,322222222
+U2:Deutsche Oper;U2:Bismarckstraße;travel;1,1;U2;;52,511944444;13,310555555;52,511388888;13,305
+U2:Bismarckstraße;U2:Deutsche Oper;travel;1,1;U2;;52,511388888;13,305;52,511944444;13,310555555
+U2:Bismarckstraße;U2:Kaiserdamm;travel;3,5;U2;;52,511388888;13,305;52,51;13,2822
+U2:Kaiserdamm;U2:Bismarckstraße;travel;3,5;U2;;52,51;13,2822;52,511388888;13,305
+U2:Kaiserdamm;U2:Theodor-Heuss-Platz;travel;1,6;U2;;52,51;13,2822;52,509722222;13,273055555
+U2:Theodor-Heuss-Platz;U2:Kaiserdamm;travel;1,6;U2;;52,509722222;13,273055555;52,51;13,2822
+U2:Theodor-Heuss-Platz;U2:Neu-Westend;travel;2,4;U2;;52,509722222;13,273055555;52,515555555;13,261111111
+U2:Neu-Westend;U2:Theodor-Heuss-Platz;travel;2,4;U2;;52,515555555;13,261111111;52,509722222;13,273055555
+U2:Neu-Westend;U2:Olympia-Stadion;travel;1,9;U2;;52,515555555;13,261111111;52,517222222;13,25
+U2:Olympia-Stadion;U2:Neu-Westend;travel;1,9;U2;;52,517222222;13,25;52,515555555;13,261111111
+U2:Olympia-Stadion;U2:Ruhleben;travel;2,5;U2;;52,517222222;13,25;52,525555555;13,241388888
+U2:Ruhleben;U2:Olympia-Stadion;travel;2,5;U2;;52,525555555;13,241388888;52,517222222;13,25
+U3:Krumme Lanke;U3:Onkel Toms Hütte;travel;2,6;U3;;52,443333333;13,241388888;52,450277777;13,253333333
+U3:Onkel Toms Hütte;U3:Krumme Lanke;travel;2,6;U3;;52,450277777;13,253333333;52,443333333;13,241388888
+U3:Onkel Toms Hütte;U3:Oskar-Helene-Heim;travel;2,6;U3;;52,450277777;13,253333333;52,450277777;13,269722222
+U3:Oskar-Helene-Heim;U3:Onkel Toms Hütte;travel;2,6;U3;;52,450277777;13,269722222;52,450277777;13,253333333
+U3:Oskar-Helene-Heim;U3:Dahlem-Dorf;travel;3,4;U3;;52,450277777;13,269722222;52,456944444;13,289444444
+U3:Dahlem-Dorf;U3:Oskar-Helene-Heim;travel;3,4;U3;;52,456944444;13,289444444;52,450277777;13,269722222
+U3:Dahlem-Dorf;U3:Podbielskiallee;travel;2,3;U3;;52,456944444;13,289444444;52,464444444;13,296388888
+U3:Podbielskiallee;U3:Dahlem-Dorf;travel;2,3;U3;;52,464444444;13,296388888;52,456944444;13,289444444
+U3:Podbielskiallee;U3:Breitenbachplatz;travel;2;U3;;52,464444444;13,296388888;52,466388888;13,308055555
+U3:Breitenbachplatz;U3:Podbielskiallee;travel;2;U3;;52,466388888;13,308055555;52,464444444;13,296388888
+U3:Breitenbachplatz;U3:Rüdesheimer Platz;travel;1,3;U3;;52,466388888;13,308055555;52,4703;13,311
+U3:Rüdesheimer Platz;U3:Breitenbachplatz;travel;1,3;U3;;52,4703;13,311;52,466388888;13,308055555
+U3:Rüdesheimer Platz;U3:Heidelberger Platz;travel;2,5;U3;;52,4703;13,311;52,479986111;13,311927777
+U3:Heidelberger Platz;U3:Rüdesheimer Platz;travel;2,5;U3;;52,479986111;13,311927777;52,4703;13,311
+U3:Heidelberger Platz;U3:Hohenzollernplatz;travel;3,9;U3;;52,479986111;13,311927777;52,493888888;13,325
+U3:Hohenzollernplatz;U3:Heidelberger Platz;travel;3,9;U3;;52,493888888;13,325;52,479986111;13,311927777
+U3:Hohenzollernplatz;U3:Spichernstraße;travel;1,3;U3;;52,493888888;13,325;52,496388888;13,330555555
+U3:Spichernstraße;U3:Hohenzollernplatz;travel;1,3;U3;;52,496388888;13,330555555;52,493888888;13,325
+U3:Spichernstraße;U3:Augsburger Straße;travel;1,6;U3;;52,496388888;13,330555555;52,500555555;13,336388888
+U3:Augsburger Straße;U3:Spichernstraße;travel;1,6;U3;;52,500555555;13,336388888;52,496388888;13,330555555
+U3:Augsburger Straße;U3:Wittenbergplatz;travel;1,3;U3;;52,500555555;13,336388888;52,501944444;13,343055555
+U3:Wittenbergplatz;U3:Augsburger Straße;travel;1,3;U3;;52,501944444;13,343055555;52,500555555;13,336388888
+U3:Wittenbergplatz;U3:Nollendorfplatz;travel;1,9;U3;;52,501944444;13,343055555;52,499166666;13,353888888
+U3:Nollendorfplatz;U3:Wittenbergplatz;travel;1,9;U3;;52,499166666;13,353888888;52,501944444;13,343055555
+U3:Nollendorfplatz;U3:Möckernbrücke;travel;4,3;U3;;52,499166666;13,353888888;52,499166666;13,382777777
+U3:Möckernbrücke;U3:Nollendorfplatz;travel;4,3;U3;;52,499166666;13,382777777;52,499166666;13,353888888
+U3:Möckernbrücke;U3:Hallesches Tor;travel;1,5;U3;;52,499166666;13,382777777;52,497777777;13,391111111
+U3:Hallesches Tor;U3:Möckernbrücke;travel;1,5;U3;;52,497777777;13,391111111;52,499166666;13,382777777
+U3:Hallesches Tor;U3:Kottbusser Tor;travel;4;U3;;52,497777777;13,391111111;52,499166666;13,418055555
+U3:Kottbusser Tor;U3:Hallesches Tor;travel;4;U3;;52,499166666;13,418055555;52,497777777;13,391111111
+U3:Kottbusser Tor;U3:Schönleinstraße;travel;1,8;U3;;52,499166666;13,418055555;52,493055555;13,421944444
+U3:Schönleinstraße;U3:Kottbusser Tor;travel;1,8;U3;;52,493055555;13,421944444;52,499166666;13,418055555
+U3:Schönleinstraße;U3:Hermannplatz;travel;1,9;U3;;52,493055555;13,421944444;52,486388888;13,424444444
+U3:Hermannplatz;U3:Schönleinstraße;travel;1,9;U3;;52,486388888;13,424444444;52,493055555;13,421944444
+U3:Hermannplatz;U3:Boddinstraße;travel;1,8;U3;;52,486388888;13,424444444;52,48;13,425277777
+U3:Boddinstraße;U3:Hermannplatz;travel;1,8;U3;;52,48;13,425277777;52,486388888;13,424444444
+U3:Boddinstraße;U3:Leinestraße;travel;2;U3;;52,48;13,425277777;52,472777777;13,428333333
+U3:Leinestraße;U3:Boddinstraße;travel;2;U3;;52,472777777;13,428333333;52,48;13,425277777
+U3:Leinestraße;U3:Hermannstraße;travel;1;U3;;52,472777777;13,428333333;52,472777777;13,428333333
+U3:Hermannstraße;U3:Leinestraße;travel;1;U3;;52,472777777;13,428333333;52,472777777;13,428333333
+U4:Nollendorfplatz;U4:Viktoria-Luise-Platz;travel;2;U4;;52,499166666;13,353888888;52,496161111;13,342702777
+U4:Viktoria-Luise-Platz;U4:Nollendorfplatz;travel;2;U4;;52,496161111;13,342702777;52,499166666;13,353888888
+U4:Viktoria-Luise-Platz;U4:Bayerischer Platz;travel;2,1;U4;;52,496161111;13,342702777;52,488333333;13,340277777
+U4:Bayerischer Platz;U4:Viktoria-Luise-Platz;travel;2,1;U4;;52,488333333;13,340277777;52,496161111;13,342702777
+U4:Bayerischer Platz;U4:Rathaus Schöneberg;travel;1,5;U4;;52,488333333;13,340277777;52,483116666;13,341930555
+U4:Rathaus Schöneberg;U4:Bayerischer Platz;travel;1,5;U4;;52,483116666;13,341930555;52,488333333;13,340277777
+U4:Rathaus Schöneberg;U4:Innsbrucker Platz;travel;1,4;U4;;52,483116666;13,341930555;52,4786;13,3439
+U4:Innsbrucker Platz;U4:Rathaus Schöneberg;travel;1,4;U4;;52,4786;13,3439;52,483116666;13,341930555
+U5:Hauptbahnhof;U5:Bundestag;travel;1,6;U5;;52,525278;13,369444;52,520013888;13,373005555
+U5:Bundestag;U5:Hauptbahnhof;travel;1,6;U5;;52,520013888;13,373005555;52,525278;13,369444
+U5:Bundestag;U5:Brandenburger Tor;travel;1,7;U5;;52,520013888;13,373005555;52,516388888;13,380833333
+U5:Brandenburger Tor;U5:Bundestag;travel;1,7;U5;;52,516388888;13,380833333;52,520013888;13,373005555
+U5:Brandenburger Tor;U5:Unter den Linden;travel;1,3;U5;;52,516388888;13,380833333;52,5167;13,388
+U5:Unter den Linden;U5:Brandenburger Tor;travel;1,3;U5;;52,5167;13,388;52,516388888;13,380833333
+U5:Unter den Linden;U5:Alexanderplatz;travel;3,8;U5;;52,5167;13,388;52,521388888;13,411944444
+U5:Alexanderplatz;U5:Unter den Linden;travel;3,8;U5;;52,521388888;13,411944444;52,5167;13,388
+U5:Alexanderplatz;U5:Schillingstraße;travel;1,7;U5;;52,521388888;13,411944444;52,520277777;13,421666666
+U5:Schillingstraße;U5:Alexanderplatz;travel;1,7;U5;;52,520277777;13,421666666;52,521388888;13,411944444
+U5:Schillingstraße;U5:Strausberger Platz;travel;1,7;U5;;52,520277777;13,421666666;52,518055555;13,430833333
+U5:Strausberger Platz;U5:Schillingstraße;travel;1,7;U5;;52,518055555;13,430833333;52,520277777;13,421666666
+U5:Strausberger Platz;U5:Weberwiese;travel;2,3;U5;;52,518055555;13,430833333;52,516794444;13,444991666
+U5:Weberwiese;U5:Strausberger Platz;travel;2,3;U5;;52,516794444;13,444991666;52,518055555;13,430833333
+U5:Weberwiese;U5:Frankfurter Tor;travel;1,6;U5;;52,516794444;13,444991666;52,515833333;13,454166666
+U5:Frankfurter Tor;U5:Weberwiese;travel;1,6;U5;;52,515833333;13,454166666;52,516794444;13,444991666
+U5:Frankfurter Tor;U5:Samariterstraße;travel;1,8;U5;;52,515833333;13,454166666;52,514722222;13,464444444
+U5:Samariterstraße;U5:Frankfurter Tor;travel;1,8;U5;;52,514722222;13,464444444;52,515833333;13,454166666
+U5:Samariterstraße;U5:Magdalenenstraße;travel;3,4;U5;;52,514722222;13,464444444;52,5125;13,486388888
+U5:Magdalenenstraße;U5:Samariterstraße;travel;3,4;U5;;52,5125;13,486388888;52,514722222;13,464444444
+U5:Magdalenenstraße;U5:Lichtenberg;travel;1,8;U5;;52,5125;13,486388888;52,5106;13,4964
+U5:Lichtenberg;U5:Magdalenenstraße;travel;1,8;U5;;52,5106;13,4964;52,5125;13,486388888
+U5:Lichtenberg;U5:Friedrichsfelde;travel;2,8;U5;;52,5106;13,4964;52,506111111;13,512777777
+U5:Friedrichsfelde;U5:Lichtenberg;travel;2,8;U5;;52,506111111;13,512777777;52,5106;13,4964
+U5:Friedrichsfelde;U5:Tierpark;travel;2,9;U5;;52,506111111;13,512777777;52,4964;13,5233
+U5:Tierpark;U5:Friedrichsfelde;travel;2,9;U5;;52,4964;13,5233;52,506111111;13,512777777
+U5:Tierpark;U5:Biesdorf-Süd;travel;3,6;U5;;52,4964;13,5233;52,4997;13,5465
+U5:Biesdorf-Süd;U5:Tierpark;travel;3,6;U5;;52,4997;13,5465;52,4964;13,5233
+U5:Biesdorf-Süd;U5:Elsterwerdaer Platz;travel;2,6;U5;;52,4997;13,5465;52,505;13,56056
+U5:Elsterwerdaer Platz;U5:Biesdorf-Süd;travel;2,6;U5;;52,505;13,56056;52,4997;13,5465
+U5:Elsterwerdaer Platz;U5:Wuhletal;travel;3;U5;;52,505;13,56056;52,5126;13,5752
+U5:Wuhletal;U5:Elsterwerdaer Platz;travel;3;U5;;52,5126;13,5752;52,505;13,56056
+U5:Wuhletal;U5:Kaulsdorf-Nord;travel;3;U5;;52,5126;13,5752;52,521;13,589
+U5:Kaulsdorf-Nord;U5:Wuhletal;travel;3;U5;;52,521;13,589;52,5126;13,5752
+U5:Kaulsdorf-Nord;U5:Kienberg;travel;2,1;U5;;52,521;13,589;52,52861;13,59056
+U5:Kienberg;U5:Kaulsdorf-Nord;travel;2,1;U5;;52,52861;13,59056;52,521;13,589
+U5:Kienberg;U5:Cottbusser Platz;travel;1,8;U5;;52,52861;13,59056;52,5339;13,5964
+U5:Cottbusser Platz;U5:Kienberg;travel;1,8;U5;;52,5339;13,5964;52,52861;13,59056
+U5:Cottbusser Platz;U5:Hellersdorf;travel;1,8;U5;;52,5339;13,5964;52,53667;13,60639
+U5:Hellersdorf;U5:Cottbusser Platz;travel;1,8;U5;;52,53667;13,60639;52,5339;13,5964
+U5:Hellersdorf;U5:Louis-Lewin-Straße;travel;2;U5;;52,53667;13,60639;52,53889;13,61833
+U5:Louis-Lewin-Straße;U5:Hellersdorf;travel;2;U5;;52,53889;13,61833;52,53667;13,60639
+U5:Louis-Lewin-Straße;U5:Hönow;travel;2,5;U5;;52,53889;13,61833;52,5383;13,6339
+U5:Hönow;U5:Louis-Lewin-Straße;travel;2,5;U5;;52,5383;13,6339;52,53889;13,61833
+U6:Alt-Tegel;U6:Borsigwerke;travel;2,3;U6;;52,58944;13,28389;52,5819;13,2907
+U6:Borsigwerke;U6:Alt-Tegel;travel;2,3;U6;;52,5819;13,2907;52,58944;13,28389
+U6:Borsigwerke;U6:Holzhauser Straße;travel;1,9;U6;;52,5819;13,2907;52,575833333;13,296111111
+U6:Holzhauser Straße;U6:Borsigwerke;travel;1,9;U6;;52,575833333;13,296111111;52,5819;13,2907
+U6:Holzhauser Straße;U6:Otisstraße;travel;1,7;U6;;52,575833333;13,296111111;52,571111111;13,302777777
+U6:Otisstraße;U6:Holzhauser Straße;travel;1,7;U6;;52,571111111;13,302777777;52,575833333;13,296111111
+U6:Otisstraße;U6:Scharnweberstraße;travel;2;U6;;52,571111111;13,302777777;52,566944444;13,312777777
+U6:Scharnweberstraße;U6:Otisstraße;travel;2;U6;;52,566944444;13,312777777;52,571111111;13,302777777
+U6:Scharnweberstraße;U6:Kurt-Schumacher-Platz;travel;2,4;U6;;52,566944444;13,312777777;52,563555555;13,326572222
+U6:Kurt-Schumacher-Platz;U6:Scharnweberstraße;travel;2,4;U6;;52,563555555;13,326572222;52,566944444;13,312777777
+U6:Kurt-Schumacher-Platz;U6:Afrikanische Straße;travel;1,7;U6;;52,563555555;13,326572222;52,560027777;13,334633333
+U6:Afrikanische Straße;U6:Kurt-Schumacher-Platz;travel;1,7;U6;;52,560027777;13,334633333;52,563555555;13,326572222
+U6:Afrikanische Straße;U6:Rehberge;travel;1,5;U6;;52,560027777;13,334633333;52,5567;13,3412
+U6:Rehberge;U6:Afrikanische Straße;travel;1,5;U6;;52,5567;13,3412;52,560027777;13,334633333
+U6:Rehberge;U6:Seestraße;travel;2,3;U6;;52,5567;13,3412;52,55056;13,35194
+U6:Seestraße;U6:Rehberge;travel;2,3;U6;;52,55056;13,35194;52,5567;13,3412
+U6:Seestraße;U6:Leopoldplatz;travel;1,7;U6;;52,55056;13,35194;52,5465;13,3591
+U6:Leopoldplatz;U6:Seestraße;travel;1,7;U6;;52,5465;13,3591;52,55056;13,35194
+U6:Leopoldplatz;U6:Wedding;travel;1,6;U6;;52,5465;13,3591;52,5425;13,3661
+U6:Wedding;U6:Leopoldplatz;travel;1,6;U6;;52,5425;13,3661;52,5465;13,3591
+U6:Wedding;U6:Reinickendorfer Straße;travel;1,2;U6;;52,5425;13,3661;52,539911111;13,370377777
+U6:Reinickendorfer Straße;U6:Wedding;travel;1,2;U6;;52,539911111;13,370377777;52,5425;13,3661
+U6:Reinickendorfer Straße;U6:Schwartzkopffstraße;travel;1,7;U6;;52,539911111;13,370377777;52,535277777;13,377222222
+U6:Schwartzkopffstraße;U6:Reinickendorfer Straße;travel;1,7;U6;;52,535277777;13,377222222;52,539911111;13,370377777
+U6:Schwartzkopffstraße;U6:Naturkundemuseum;travel;1,5;U6;;52,535277777;13,377222222;52,531111111;13,3825
+U6:Naturkundemuseum;U6:Schwartzkopffstraße;travel;1,5;U6;;52,531111111;13,3825;52,535277777;13,377222222
+U6:Naturkundemuseum;U6:Oranienburger Tor;travel;1,9;U6;;52,531111111;13,3825;52,524886111;13,387477777
+U6:Oranienburger Tor;U6:Naturkundemuseum;travel;1,9;U6;;52,524886111;13,387477777;52,531111111;13,3825
+U6:Oranienburger Tor;U6:Friedrichstraße;travel;1,4;U6;;52,524886111;13,387477777;52,52;13,3887
+U6:Friedrichstraße;U6:Oranienburger Tor;travel;1,4;U6;;52,52;13,3887;52,524886111;13,387477777
+U6:Friedrichstraße;U6:Stadtmitte;travel;2,1;U6;;52,52;13,3887;52,5122;13,3894
+U6:Stadtmitte;U6:Friedrichstraße;travel;2,1;U6;;52,5122;13,3894;52,52;13,3887
+U6:Stadtmitte;U6:Kochstraße;travel;1,8;U6;;52,5122;13,3894;52,505897222;13,390611111
+U6:Kochstraße;U6:Stadtmitte;travel;1,8;U6;;52,505897222;13,390611111;52,5122;13,3894
+U6:Kochstraße;U6:Hallesches Tor;travel;2,2;U6;;52,505897222;13,390611111;52,497777777;13,391111111
+U6:Hallesches Tor;U6:Kochstraße;travel;2,2;U6;;52,497777777;13,391111111;52,505897222;13,390611111
+U6:Hallesches Tor;U6:Mehringdamm;travel;1,3;U6;;52,497777777;13,391111111;52,493888888;13,388333333
+U6:Mehringdamm;U6:Hallesches Tor;travel;1,3;U6;;52,493888888;13,388333333;52,497777777;13,391111111
+U6:Mehringdamm;U6:Platz der Luftbrücke;travel;2,2;U6;;52,493888888;13,388333333;52,485555555;13,385833333
+U6:Platz der Luftbrücke;U6:Mehringdamm;travel;2,2;U6;;52,485555555;13,385833333;52,493888888;13,388333333
+U6:Platz der Luftbrücke;U6:Paradestraße;travel;2;U6;;52,485555555;13,385833333;52,478055555;13,386111111
+U6:Paradestraße;U6:Platz der Luftbrücke;travel;2;U6;;52,478055555;13,386111111;52,485555555;13,385833333
+U6:Paradestraße;U6:Tempelhof;travel;2;U6;;52,478055555;13,386111111;52,4708;13,3854
+U6:Tempelhof;U6:Paradestraße;travel;2;U6;;52,4708;13,3854;52,478055555;13,386111111
+U6:Tempelhof;U6:Alt-Tempelhof;travel;1,4;U6;;52,4708;13,3854;52,465952777;13,385897222
+U6:Alt-Tempelhof;U6:Tempelhof;travel;1,4;U6;;52,465952777;13,385897222;52,4708;13,3854
+U6:Alt-Tempelhof;U6:Kaiserin-Augusta-Straße;travel;1,7;U6;;52,465952777;13,385897222;52,460152777;13,384577777
+U6:Kaiserin-Augusta-Straße;U6:Alt-Tempelhof;travel;1,7;U6;;52,460152777;13,384577777;52,465952777;13,385897222
+U6:Kaiserin-Augusta-Straße;U6:Ullsteinstraße;travel;1,8;U6;;52,460152777;13,384577777;52,453775;13,384302777
+U6:Ullsteinstraße;U6:Kaiserin-Augusta-Straße;travel;1,8;U6;;52,453775;13,384302777;52,460152777;13,384577777
+U6:Ullsteinstraße;U6:Westphalweg;travel;2,1;U6;;52,453775;13,384302777;52,446;13,386
+U6:Westphalweg;U6:Ullsteinstraße;travel;2,1;U6;;52,446;13,386;52,453775;13,384302777
+U6:Westphalweg;U6:Alt-Mariendorf;travel;1,9;U6;;52,446;13,386;52,4391;13,3877
+U6:Alt-Mariendorf;U6:Westphalweg;travel;1,9;U6;;52,4391;13,3877;52,446;13,386
+U7:Rathaus Spandau;U7:Altstadt Spandau;travel;1,5;U7;;52,535;13,200277777;52,538888888;13,206388888
+U7:Altstadt Spandau;U7:Rathaus Spandau;travel;1,5;U7;;52,538888888;13,206388888;52,535;13,200277777
+U7:Altstadt Spandau;U7:Zitadelle;travel;1,9;U7;;52,538888888;13,206388888;52,537777777;13,217777777
+U7:Zitadelle;U7:Altstadt Spandau;travel;1,9;U7;;52,537777777;13,217777777;52,538888888;13,206388888
+U7:Zitadelle;U7:Paulsternstraße;travel;4,4;U7;;52,537777777;13,217777777;52,538055555;13,247777777
+U7:Paulsternstraße;U7:Zitadelle;travel;4,4;U7;;52,538055555;13,247777777;52,537777777;13,217777777
+U7:Paulsternstraße;U7:Haselhorst;travel;2,4;U7;;52,538055555;13,247777777;52,538888888;13,232777777
+U7:Haselhorst;U7:Paulsternstraße;travel;2,4;U7;;52,538888888;13,232777777;52,538055555;13,247777777
+U7:Haselhorst;U7:Rohrdamm;travel;4,4;U7;;52,538888888;13,232777777;52,537222222;13,2625
+U7:Rohrdamm;U7:Haselhorst;travel;4,4;U7;;52,537222222;13,2625;52,538888888;13,232777777
+U7:Rohrdamm;U7:Siemensdamm;travel;1,8;U7;;52,537222222;13,2625;52,536666666;13,273055555
+U7:Siemensdamm;U7:Rohrdamm;travel;1,8;U7;;52,536666666;13,273055555;52,537222222;13,2625
+U7:Siemensdamm;U7:Halemweg;travel;2,2;U7;;52,536666666;13,273055555;52,536666666;13,286388888
+U7:Halemweg;U7:Siemensdamm;travel;2,2;U7;;52,536666666;13,286388888;52,536666666;13,273055555
+U7:Halemweg;U7:Jakob-Kaiser-Platz;travel;1,4;U7;;52,536666666;13,286388888;52,534444444;13,293611111
+U7:Jakob-Kaiser-Platz;U7:Halemweg;travel;1,4;U7;;52,534444444;13,293611111;52,536666666;13,286388888
+U7:Jakob-Kaiser-Platz;U7:Jungfernheide;travel;1,5;U7;;52,534444444;13,293611111;52,530963888;13,300141666
+U7:Jungfernheide;U7:Jakob-Kaiser-Platz;travel;1,5;U7;;52,530963888;13,300141666;52,534444444;13,293611111
+U7:Jungfernheide;U7:Mierendorffplatz;travel;1,6;U7;;52,530963888;13,300141666;52,526388888;13,305
+U7:Mierendorffplatz;U7:Jungfernheide;travel;1,6;U7;;52,526388888;13,305;52,530963888;13,300141666
+U7:Mierendorffplatz;U7:Richard-Wagner-Platz;travel;2,3;U7;;52,526388888;13,305;52,5175;13,306388888
+U7:Richard-Wagner-Platz;U7:Mierendorffplatz;travel;2,3;U7;;52,5175;13,306388888;52,526388888;13,305
+U7:Richard-Wagner-Platz;U7:Bismarckstraße;travel;1,7;U7;;52,5175;13,306388888;52,511388888;13,305
+U7:Bismarckstraße;U7:Richard-Wagner-Platz;travel;1,7;U7;;52,511388888;13,305;52,5175;13,306388888
+U7:Bismarckstraße;U7:Wilmersdorfer Straße;travel;1,4;U7;;52,511388888;13,305;52,506666666;13,306666666
+U7:Wilmersdorfer Straße;U7:Bismarckstraße;travel;1,4;U7;;52,506666666;13,306666666;52,511388888;13,305
+U7:Wilmersdorfer Straße;U7:Adenauerplatz;travel;1,9;U7;;52,506666666;13,306666666;52,499722222;13,307222222
+U7:Adenauerplatz;U7:Wilmersdorfer Straße;travel;1,9;U7;;52,499722222;13,307222222;52,506666666;13,306666666
+U7:Adenauerplatz;U7:Konstanzer Straße;travel;1,6;U7;;52,499722222;13,307222222;52,494166666;13,309722222
+U7:Konstanzer Straße;U7:Adenauerplatz;travel;1,6;U7;;52,494166666;13,309722222;52,499722222;13,307222222
+U7:Konstanzer Straße;U7:Fehrbelliner Platz;travel;1,4;U7;;52,494166666;13,309722222;52,490277777;13,314444444
+U7:Fehrbelliner Platz;U7:Konstanzer Straße;travel;1,4;U7;;52,490277777;13,314444444;52,494166666;13,309722222
+U7:Fehrbelliner Platz;U7:Blissestraße;travel;1,6;U7;;52,490277777;13,314444444;52,486666666;13,321944444
+U7:Blissestraße;U7:Fehrbelliner Platz;travel;1,6;U7;;52,486666666;13,321944444;52,490277777;13,314444444
+U7:Blissestraße;U7:Berliner Straße;travel;1,6;U7;;52,486666666;13,321944444;52,487222222;13,330833333
+U7:Berliner Straße;U7:Blissestraße;travel;1,6;U7;;52,487222222;13,330833333;52,486666666;13,321944444
+U7:Berliner Straße;U7:Bayerischer Platz;travel;1,7;U7;;52,487222222;13,330833333;52,488333333;13,340277777
+U7:Bayerischer Platz;U7:Berliner Straße;travel;1,7;U7;;52,488333333;13,340277777;52,487222222;13,330833333
+U7:Bayerischer Platz;U7:Eisenacher Straße;travel;1,7;U7;;52,488333333;13,340277777;52,489444444;13,350277777
+U7:Eisenacher Straße;U7:Bayerischer Platz;travel;1,7;U7;;52,489444444;13,350277777;52,488333333;13,340277777
+U7:Eisenacher Straße;U7:Kleistpark;travel;1,7;U7;;52,489444444;13,350277777;52,490555555;13,360277777
+U7:Kleistpark;U7:Eisenacher Straße;travel;1,7;U7;;52,490555555;13,360277777;52,489444444;13,350277777
+U7:Kleistpark;U7:Yorckstraße;travel;1,7;U7;;52,490555555;13,360277777;52,493055555;13,369722222
+U7:Yorckstraße;U7:Kleistpark;travel;1,7;U7;;52,493055555;13,369722222;52,490555555;13,360277777
+U7:Yorckstraße;U7:Möckernbrücke;travel;2,6;U7;;52,493055555;13,369722222;52,499166666;13,382777777
+U7:Möckernbrücke;U7:Yorckstraße;travel;2,6;U7;;52,499166666;13,382777777;52,493055555;13,369722222
+U7:Möckernbrücke;U7:Mehringdamm;travel;1,7;U7;;52,499166666;13,382777777;52,493888888;13,388333333
+U7:Mehringdamm;U7:Möckernbrücke;travel;1,7;U7;;52,493888888;13,388333333;52,499166666;13,382777777
+U7:Mehringdamm;U7:Gneisenaustraße;travel;1,5;U7;;52,493888888;13,388333333;52,491388888;13,395555555
+U7:Gneisenaustraße;U7:Mehringdamm;travel;1,5;U7;;52,491388888;13,395555555;52,493888888;13,388333333
+U7:Gneisenaustraße;U7:Südstern;travel;2,1;U7;;52,491388888;13,395555555;52,489444444;13,407777777
+U7:Südstern;U7:Gneisenaustraße;travel;2,1;U7;;52,489444444;13,407777777;52,491388888;13,395555555
+U7:Südstern;U7:Hermannplatz;travel;2,7;U7;;52,489444444;13,407777777;52,486388888;13,424444444
+U7:Hermannplatz;U7:Südstern;travel;2,7;U7;;52,486388888;13,424444444;52,489444444;13,407777777
+U7:Hermannplatz;U7:Rathaus Neukölln;travel;2;U7;;52,486388888;13,424444444;52,481666666;13,434166666
+U7:Rathaus Neukölln;U7:Hermannplatz;travel;2;U7;;52,481666666;13,434166666;52,486388888;13,424444444
+U7:Rathaus Neukölln;U7:Karl-Marx-Straße;travel;1,8;U7;;52,481666666;13,434166666;52,476111111;13,439166666
+U7:Karl-Marx-Straße;U7:Rathaus Neukölln;travel;1,8;U7;;52,476111111;13,439166666;52,481666666;13,434166666
+U7:Karl-Marx-Straße;U7:Neukölln;travel;1,9;U7;;52,476111111;13,439166666;52,469166666;13,441666666
+U7:Neukölln;U7:Karl-Marx-Straße;travel;1,9;U7;;52,469166666;13,441666666;52,476111111;13,439166666
+U7:Neukölln;U7:Grenzallee;travel;1,7;U7;;52,469166666;13,441666666;52,463333333;13,443888888
+U7:Grenzallee;U7:Neukölln;travel;1,7;U7;;52,463333333;13,443888888;52,469166666;13,441666666
+U7:Grenzallee;U7:Blaschkoallee;travel;3;U7;;52,463333333;13,443888888;52,451944444;13,449444444
+U7:Blaschkoallee;U7:Grenzallee;travel;3;U7;;52,451944444;13,449444444;52,463333333;13,443888888
+U7:Blaschkoallee;U7:Parchimer Allee;travel;2;U7;;52,451944444;13,449444444;52,444722222;13,449444444
+U7:Parchimer Allee;U7:Blaschkoallee;travel;2;U7;;52,444722222;13,449444444;52,451944444;13,449444444
+U7:Parchimer Allee;U7:Britz-Süd;travel;1,9;U7;;52,444722222;13,449444444;52,437777777;13,448055555
+U7:Britz-Süd;U7:Parchimer Allee;travel;1,9;U7;;52,437777777;13,448055555;52,444722222;13,449444444
+U7:Britz-Süd;U7:Johannisthaler Chaussee;travel;2,4;U7;;52,437777777;13,448055555;52,429166666;13,453333333
+U7:Johannisthaler Chaussee;U7:Britz-Süd;travel;2,4;U7;;52,429166666;13,453333333;52,437777777;13,448055555
+U7:Johannisthaler Chaussee;U7:Lipschitzallee;travel;2;U7;;52,429166666;13,453333333;52,424722222;13,462777777
+U7:Lipschitzallee;U7:Johannisthaler Chaussee;travel;2;U7;;52,424722222;13,462777777;52,429166666;13,453333333
+U7:Lipschitzallee;U7:Wutzkyallee;travel;2;U7;;52,424722222;13,462777777;52,423333333;13,475
+U7:Wutzkyallee;U7:Lipschitzallee;travel;2;U7;;52,423333333;13,475;52,424722222;13,462777777
+U7:Wutzkyallee;U7:Zwickauer Damm;travel;1,6;U7;;52,423333333;13,475;52,423333333;13,483888888
+U7:Zwickauer Damm;U7:Wutzkyallee;travel;1,6;U7;;52,423333333;13,483888888;52,423333333;13,475
+U7:Zwickauer Damm;U7:Rudow;travel;2,7;U7;;52,423333333;13,483888888;52,415833333;13,496111111
+U7:Rudow;U7:Zwickauer Damm;travel;2,7;U7;;52,415833333;13,496111111;52,423333333;13,483888888
+U8:Wittenau;U8:Rathaus Reinickendorf;travel;2,4;U8;;52,595606;13,334715;52,5882;13,3257
+U8:Rathaus Reinickendorf;U8:Wittenau;travel;2,4;U8;;52,5882;13,3257;52,595606;13,334715
+U8:Rathaus Reinickendorf;U8:Karl-Bonhoeffer-Nervenklinik;travel;2,7;U8;;52,5882;13,3257;52,5781;13,3308
+U8:Karl-Bonhoeffer-Nervenklinik;U8:Rathaus Reinickendorf;travel;2,7;U8;;52,5781;13,3308;52,5882;13,3257
+U8:Karl-Bonhoeffer-Nervenklinik;U8:Lindauer Allee;travel;1,6;U8;;52,5781;13,3308;52,5753;13,3392
+U8:Lindauer Allee;U8:Karl-Bonhoeffer-Nervenklinik;travel;1,6;U8;;52,5753;13,3392;52,5781;13,3308
+U8:Lindauer Allee;U8:Paracelsus-Bad;travel;1,7;U8;;52,5753;13,3392;52,574166666;13,349166666
+U8:Paracelsus-Bad;U8:Lindauer Allee;travel;1,7;U8;;52,574166666;13,349166666;52,5753;13,3392
+U8:Paracelsus-Bad;U8:Residenzstraße;travel;2;U8;;52,574166666;13,349166666;52,571111111;13,360555555
+U8:Residenzstraße;U8:Paracelsus-Bad;travel;2;U8;;52,571111111;13,360555555;52,574166666;13,349166666
+U8:Residenzstraße;U8:Franz-Neumann-Platz;travel;1,8;U8;;52,571111111;13,360555555;52,564722222;13,363888888
+U8:Franz-Neumann-Platz;U8:Residenzstraße;travel;1,8;U8;;52,564722222;13,363888888;52,571111111;13,360555555
+U8:Franz-Neumann-Platz;U8:Osloer Straße;travel;2,5;U8;;52,564722222;13,363888888;52,55694;13,37361
+U8:Osloer Straße;U8:Franz-Neumann-Platz;travel;2,5;U8;;52,55694;13,37361;52,564722222;13,363888888
+U8:Osloer Straße;U8:Pankstraße;travel;1,9;U8;;52,55694;13,37361;52,55222;13,38167
+U8:Pankstraße;U8:Osloer Straße;travel;1,9;U8;;52,55222;13,38167;52,55694;13,37361
+U8:Pankstraße;U8:Gesundbrunnen;travel;1,7;U8;;52,55222;13,38167;52,548611111;13,389444444
+U8:Gesundbrunnen;U8:Pankstraße;travel;1,7;U8;;52,548611111;13,389444444;52,55222;13,38167
+U8:Gesundbrunnen;U8:Voltastraße;travel;1,7;U8;;52,548611111;13,389444444;52,542777777;13,3925
+U8:Voltastraße;U8:Gesundbrunnen;travel;1,7;U8;;52,542777777;13,3925;52,548611111;13,389444444
+U8:Voltastraße;U8:Bernauer Straße;travel;1,7;U8;;52,542777777;13,3925;52,5375;13,396666666
+U8:Bernauer Straße;U8:Voltastraße;travel;1,7;U8;;52,5375;13,396666666;52,542777777;13,3925
+U8:Bernauer Straße;U8:Rosenthaler Platz;travel;2,1;U8;;52,5375;13,396666666;52,53;13,401111111
+U8:Rosenthaler Platz;U8:Bernauer Straße;travel;2,1;U8;;52,53;13,401111111;52,5375;13,396666666
+U8:Rosenthaler Platz;U8:Weinmeisterstraße;travel;1,3;U8;;52,53;13,401111111;52,525833333;13,403888888
+U8:Weinmeisterstraße;U8:Rosenthaler Platz;travel;1,3;U8;;52,525833333;13,403888888;52,53;13,401111111
+U8:Weinmeisterstraße;U8:Alexanderplatz;travel;1,8;U8;;52,525833333;13,403888888;52,521388888;13,411944444
+U8:Alexanderplatz;U8:Weinmeisterstraße;travel;1,8;U8;;52,521388888;13,411944444;52,525833333;13,403888888
+U8:Alexanderplatz;U8:Jannowitzbrücke;travel;1,9;U8;;52,521388888;13,411944444;52,515656;13,418185
+U8:Jannowitzbrücke;U8:Alexanderplatz;travel;1,9;U8;;52,515656;13,418185;52,521388888;13,411944444
+U8:Jannowitzbrücke;U8:Heinrich-Heine-Straße;travel;1,4;U8;;52,515656;13,418185;52,510833333;13,416388888
+U8:Heinrich-Heine-Straße;U8:Jannowitzbrücke;travel;1,4;U8;;52,510833333;13,416388888;52,515656;13,418185
+U8:Heinrich-Heine-Straße;U8:Moritzplatz;travel;2,1;U8;;52,510833333;13,416388888;52,503611111;13,410833333
+U8:Moritzplatz;U8:Heinrich-Heine-Straße;travel;2,1;U8;;52,503611111;13,410833333;52,510833333;13,416388888
+U8:Moritzplatz;U8:Kottbusser Tor;travel;1,7;U8;;52,503611111;13,410833333;52,499166666;13,418055555
+U8:Kottbusser Tor;U8:Moritzplatz;travel;1,7;U8;;52,499166666;13,418055555;52,503611111;13,410833333
+U8:Kottbusser Tor;U8:Schönleinstraße;travel;1,8;U8;;52,499166666;13,418055555;52,493055555;13,421944444
+U8:Schönleinstraße;U8:Kottbusser Tor;travel;1,8;U8;;52,493055555;13,421944444;52,499166666;13,418055555
+U8:Schönleinstraße;U8:Hermannplatz;travel;1,9;U8;;52,493055555;13,421944444;52,486388888;13,424444444
+U8:Hermannplatz;U8:Schönleinstraße;travel;1,9;U8;;52,486388888;13,424444444;52,493055555;13,421944444
+U8:Hermannplatz;U8:Leinestraße;travel;3,4;U8;;52,486388888;13,424444444;52,472777777;13,428333333
+U8:Leinestraße;U8:Hermannplatz;travel;3,4;U8;;52,472777777;13,428333333;52,486388888;13,424444444
+U8:Leinestraße;U8:Hermannstraße;travel;1;U8;;52,472777777;13,428333333;52,472777777;13,428333333
+U8:Hermannstraße;U8:Leinestraße;travel;1;U8;;52,472777777;13,428333333;52,472777777;13,428333333
+U9:Osloer Straße;U9:Nauener Platz;travel;1,8;U9;;52,55694;13,37361;52,551666666;13,3675
+U9:Nauener Platz;U9:Osloer Straße;travel;1,8;U9;;52,551666666;13,3675;52,55694;13,37361
+U9:Nauener Platz;U9:Leopoldplatz;travel;2;U9;;52,551666666;13,3675;52,5465;13,3591
+U9:Leopoldplatz;U9:Nauener Platz;travel;2;U9;;52,5465;13,3591;52,551666666;13,3675
+U9:Leopoldplatz;U9:Amrumer Straße;travel;1,8;U9;;52,5465;13,3591;52,5425;13,350277777
+U9:Amrumer Straße;U9:Leopoldplatz;travel;1,8;U9;;52,5425;13,350277777;52,5465;13,3591
+U9:Amrumer Straße;U9:Westhafen;travel;2;U9;;52,5425;13,350277777;52,536;13,344
+U9:Westhafen;U9:Amrumer Straße;travel;2;U9;;52,536;13,344;52,5425;13,350277777
+U9:Westhafen;U9:Birkenstraße;travel;1,3;U9;;52,536;13,344;52,532222222;13,341388888
+U9:Birkenstraße;U9:Westhafen;travel;1,3;U9;;52,532222222;13,341388888;52,536;13,344
+U9:Birkenstraße;U9:Turmstraße;travel;1,8;U9;;52,532222222;13,341388888;52,52585;13,341352777
+U9:Turmstraße;U9:Birkenstraße;travel;1,8;U9;;52,52585;13,341352777;52,532222222;13,341388888
+U9:Turmstraße;U9:Hansaplatz;travel;2,1;U9;;52,52585;13,341352777;52,517777777;13,342222222
+U9:Hansaplatz;U9:Turmstraße;travel;2,1;U9;;52,517777777;13,342222222;52,52585;13,341352777
+U9:Hansaplatz;U9:Zoologischer Garten;travel;2,2;U9;;52,517777777;13,342222222;52,512;13,332
+U9:Zoologischer Garten;U9:Hansaplatz;travel;2,2;U9;;52,512;13,332;52,517777777;13,342222222
+U9:Zoologischer Garten;U9:Kurfürstendamm;travel;2,1;U9;;52,512;13,332;52,504166666;13,332777777
+U9:Kurfürstendamm;U9:Zoologischer Garten;travel;2,1;U9;;52,504166666;13,332777777;52,512;13,332
+U9:Kurfürstendamm;U9:Spichernstraße;travel;2,1;U9;;52,504166666;13,332777777;52,496388888;13,330555555
+U9:Spichernstraße;U9:Kurfürstendamm;travel;2,1;U9;;52,496388888;13,330555555;52,504166666;13,332777777
+U9:Spichernstraße;U9:Güntzelstraße;travel;1,3;U9;;52,496388888;13,330555555;52,49194;13,33083
+U9:Güntzelstraße;U9:Spichernstraße;travel;1,3;U9;;52,49194;13,33083;52,496388888;13,330555555
+U9:Güntzelstraße;U9:Berliner Straße;travel;1,4;U9;;52,49194;13,33083;52,487222222;13,330833333
+U9:Berliner Straße;U9:Güntzelstraße;travel;1,4;U9;;52,487222222;13,330833333;52,49194;13,33083
+U9:Berliner Straße;U9:Walther-Schreiber-Platz;travel;5,3;U9;;52,487222222;13,330833333;52,465;13,328333333
+U9:Walther-Schreiber-Platz;U9:Berliner Straße;travel;5,3;U9;;52,465;13,328333333;52,487222222;13,330833333
+U9:Walther-Schreiber-Platz;U9:Schloßstraße;travel;1,4;U9;;52,465;13,328333333;52,46083;13,32444
+U9:Schloßstraße;U9:Walther-Schreiber-Platz;travel;1,4;U9;;52,46083;13,32444;52,465;13,328333333
+U9:Schloßstraße;U9:Rathaus Steglitz;travel;1,4;U9;;52,46083;13,32444;52,4562;13,3216
+U9:Rathaus Steglitz;U9:Schloßstraße;travel;1,4;U9;;52,4562;13,3216;52,46083;13,32444
+U1:Kurfürstendamm;U9:Kurfürstendamm;transfer;5;;Kurfürstendamm;52,504166666;13,332777777;52,504166666;13,332777777
+U9:Kurfürstendamm;U1:Kurfürstendamm;transfer;5;;Kurfürstendamm;52,504166666;13,332777777;52,504166666;13,332777777
+U1:Wittenbergplatz;U2:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U1:Wittenbergplatz;U3:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U2:Wittenbergplatz;U1:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U2:Wittenbergplatz;U3:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U3:Wittenbergplatz;U1:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U3:Wittenbergplatz;U2:Wittenbergplatz;transfer;5;;Wittenbergplatz;52,501944444;13,343055555;52,501944444;13,343055555
+U1:Möckernbrücke;U3:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U1:Möckernbrücke;U7:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U3:Möckernbrücke;U1:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U3:Möckernbrücke;U7:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U7:Möckernbrücke;U1:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U7:Möckernbrücke;U3:Möckernbrücke;transfer;5;;Möckernbrücke;52,499166666;13,382777777;52,499166666;13,382777777
+U1:Hallesches Tor;U3:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U1:Hallesches Tor;U6:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U3:Hallesches Tor;U1:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U3:Hallesches Tor;U6:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U6:Hallesches Tor;U1:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U6:Hallesches Tor;U3:Hallesches Tor;transfer;5;;Hallesches Tor;52,497777777;13,391111111;52,497777777;13,391111111
+U1:Kottbusser Tor;U3:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U1:Kottbusser Tor;U8:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U3:Kottbusser Tor;U1:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U3:Kottbusser Tor;U8:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U8:Kottbusser Tor;U1:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U8:Kottbusser Tor;U3:Kottbusser Tor;transfer;5;;Kottbusser Tor;52,499166666;13,418055555;52,499166666;13,418055555
+U2:Alexanderplatz;U5:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U2:Alexanderplatz;U8:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U5:Alexanderplatz;U2:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U5:Alexanderplatz;U8:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U8:Alexanderplatz;U2:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U8:Alexanderplatz;U5:Alexanderplatz;transfer;5;;Alexanderplatz;52,521388888;13,411944444;52,521388888;13,411944444
+U2:Nollendorfplatz;U3:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U2:Nollendorfplatz;U4:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U3:Nollendorfplatz;U2:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U3:Nollendorfplatz;U4:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U4:Nollendorfplatz;U2:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U4:Nollendorfplatz;U3:Nollendorfplatz;transfer;5;;Nollendorfplatz;52,499166666;13,353888888;52,499166666;13,353888888
+U2:Zoologischer Garten;U9:Zoologischer Garten;transfer;5;;Zoologischer Garten;52,512;13,332;52,512;13,332
+U9:Zoologischer Garten;U2:Zoologischer Garten;transfer;5;;Zoologischer Garten;52,512;13,332;52,512;13,332
+U2:Bismarckstraße;U7:Bismarckstraße;transfer;5;;Bismarckstraße;52,511388888;13,305;52,511388888;13,305
+U7:Bismarckstraße;U2:Bismarckstraße;transfer;5;;Bismarckstraße;52,511388888;13,305;52,511388888;13,305
+U3:Spichernstraße;U9:Spichernstraße;transfer;5;;Spichernstraße;52,496388888;13,330555555;52,496388888;13,330555555
+U9:Spichernstraße;U3:Spichernstraße;transfer;5;;Spichernstraße;52,496388888;13,330555555;52,496388888;13,330555555
+U3:Schönleinstraße;U8:Schönleinstraße;transfer;5;;Schönleinstraße;52,493055555;13,421944444;52,493055555;13,421944444
+U8:Schönleinstraße;U3:Schönleinstraße;transfer;5;;Schönleinstraße;52,493055555;13,421944444;52,493055555;13,421944444
+U3:Hermannplatz;U7:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U3:Hermannplatz;U8:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U7:Hermannplatz;U3:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U7:Hermannplatz;U8:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U8:Hermannplatz;U3:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U8:Hermannplatz;U7:Hermannplatz;transfer;5;;Hermannplatz;52,486388888;13,424444444;52,486388888;13,424444444
+U3:Leinestraße;U8:Leinestraße;transfer;5;;Leinestraße;52,472777777;13,428333333;52,472777777;13,428333333
+U8:Leinestraße;U3:Leinestraße;transfer;5;;Leinestraße;52,472777777;13,428333333;52,472777777;13,428333333
+U3:Hermannstraße;U8:Hermannstraße;transfer;5;;Hermannstraße;52,472777777;13,428333333;52,472777777;13,428333333
+U8:Hermannstraße;U3:Hermannstraße;transfer;5;;Hermannstraße;52,472777777;13,428333333;52,472777777;13,428333333
+U4:Bayerischer Platz;U7:Bayerischer Platz;transfer;5;;Bayerischer Platz;52,488333333;13,340277777;52,488333333;13,340277777
+U7:Bayerischer Platz;U4:Bayerischer Platz;transfer;5;;Bayerischer Platz;52,488333333;13,340277777;52,488333333;13,340277777
+U6:Leopoldplatz;U9:Leopoldplatz;transfer;5;;Leopoldplatz;52,5465;13,3591;52,5465;13,3591
+U9:Leopoldplatz;U6:Leopoldplatz;transfer;5;;Leopoldplatz;52,5465;13,3591;52,5465;13,3591
+U6:Mehringdamm;U7:Mehringdamm;transfer;5;;Mehringdamm;52,493888888;13,388333333;52,493888888;13,388333333
+U7:Mehringdamm;U6:Mehringdamm;transfer;5;;Mehringdamm;52,493888888;13,388333333;52,493888888;13,388333333
+U7:Berliner Straße;U9:Berliner Straße;transfer;5;;Berliner Straße;52,487222222;13,330833333;52,487222222;13,330833333
+U9:Berliner Straße;U7:Berliner Straße;transfer;5;;Berliner Straße;52,487222222;13,330833333;52,487222222;13,330833333
+U8:Osloer Straße;U9:Osloer Straße;transfer;5;;Osloer Straße;52,55694;13,37361;52,55694;13,37361
+U9:Osloer Straße;U8:Osloer Straße;transfer;5;;Osloer Straße;52,55694;13,37361;52,55694;13,37361
