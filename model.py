@@ -10,10 +10,18 @@ class a_model:
 
     def heuristic(self, a,b):
         #calculate the distance to place
+        pass
+
     def get_neighbors(self,position):
         #findneighbors in grid - all travels possible
+        if position not in self.grid:
+            return []
+
+        return self.grid[position]
+
     def find_path(self):
         #do algorithm return the path
+        paths = []
 
         #list of paths
         paths = []
