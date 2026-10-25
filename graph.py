@@ -1,8 +1,9 @@
 import pandas as pd
 
-def build_graph():
+
+def build_graph(path="dataset.csv"):
     graph = {}
-    df = pd.read_csv("dataset.csv", sep=";", decimal=",")
+    df = pd.read_csv(path, sep=";", decimal=",")
     for _,line in df.iterrows():
         source = line["from"]
         target = line["to"]
@@ -17,7 +18,7 @@ def build_graph():
         "to_lat": line["to_lat"],
         "to_lon": line["to_lon"], 
         }
-        if source not in graph:s
+        if source not in graph:
             graph[source] = []
         if target not in graph:
             graph[target] = []
