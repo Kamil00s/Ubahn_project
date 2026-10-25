@@ -5,7 +5,7 @@ from timer import timer
 
 class a_model:
     
-    def __init__(self, graph, time=2, v_max=80):
+    def __init__(self, graph, time=2, v_max=80, p_max = 3):
         self.WALK_SPEED = 5
         self.graph = graph
         self.status = "idle"
@@ -14,6 +14,7 @@ class a_model:
         self.coords = {}
         self.run_time = 0.0
         self.best_cost = 0.0
+        self.p_max = p_max
         for s, travels in self.graph.items():
             for t in travels:
                 self.coords[s] = (t["from_lat"], t["from_lon"])
