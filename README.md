@@ -45,7 +45,7 @@ source .venv/bin/activate
 Install the dependencies:
 
 ```bash
-python -m pip install requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Ensure that the dataset CSV file is available at the path expected by the program.
