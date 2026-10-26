@@ -1,6 +1,6 @@
-# Multimodal Route Planning – Berlin U-Bahn
+# Multimodal Route Planning – Berlin U-Bahn 🚇
 
-## Overview
+## Overview 🧭
 
 This project implements a multimodal route planner for Berlin Ubahn using the A* search algorithm.
 
@@ -18,7 +18,7 @@ The implementation is based on the U-Bahn network provided in the assignment dat
 - Search statistics and route information, where implemented.
 - Optional search limits, where implemented.
 
-## Requirements
+## Requirements ⚙️
 -> requirements.txt
 
 Install the required packages with:
@@ -28,7 +28,7 @@ python -m pip requirements.txt
 ```
 
 
-## Setup
+## Setup 🛠️
 
 Clone the repository and enter the project directory:
 
@@ -52,7 +52,7 @@ python -m pip install requirements.txt
 
 Ensure that the dataset CSV file is available at the path expected by the program.
 
-## Running the program
+## Running the program ▶️
 
 Run the project's entry-point script:
 
@@ -70,7 +70,7 @@ The total route cost is measured in minutes.
 | U-Bahn travel | Travel time specified in the dataset |
 | Transfer | 5 minutes per transfer |
 
-## Algorithm
+## Algorithm 🧠
 
 The route network is represented as a graph. Stations or station-line combinations are states, and connections between them are actions with associated travel costs.
 
@@ -102,7 +102,7 @@ Ubahn_project/
 └── README.md
 ```
 
-## Limitations
+## Limitations ⚠️
 
 The calculated route depends on the provided dataset and the assumptions used by the model. The planner uses fixed walking speed and transfer time and does not model live train schedules, delays, or real-time disruptions.
 
