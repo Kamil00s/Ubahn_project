@@ -19,10 +19,7 @@ The implementation is based on the U-Bahn network provided in the assignment dat
 - Optional search limits, where implemented.
 
 ## Requirements
-
-- Python 3
-- pandas
-- geopy
+-> requirements.txt
 
 Install the required packages with:
 
