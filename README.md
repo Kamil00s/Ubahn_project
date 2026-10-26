@@ -6,8 +6,6 @@ This project implements a multimodal route planner for Berlin Ubahn using the A*
 
 Given arbitrary start and destination coordinates, the program searches for a route that minimizes the estimated total travel time. A route can consist of walking, travelling by underground train, and transferring between U-Bahn lines.
 
-The implementation is based on the U-Bahn network provided in the assignment dataset.
-
 ## Features
 
 - Route planning between geographic coordinates.
