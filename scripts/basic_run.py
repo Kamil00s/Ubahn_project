@@ -39,6 +39,8 @@ def main():
     print(model.status)
     print(model.run_time)
     print(model.best_cost)
+    print("Examined states:", model.states_examined)
+    print("Maximum priority queue size:", model.max_open_size)
 
 if __name__ == "__main__":
     main()
