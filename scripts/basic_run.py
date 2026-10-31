@@ -1,7 +1,6 @@
 from graph import build_graph
 from model import a_model
 from cord import find_closest,how_many_meters
-from model import a_model
 import argparse
 from pathlib import Path
 from itertools import islice
