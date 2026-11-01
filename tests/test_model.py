@@ -15,7 +15,7 @@ def test_a_walk_fastest(graph):
     start = (52.5025, 13.3255) # Near Uhlandstraße
     goal = (52.5026, 13.3270)  # Just ~100 meters down the road
     path = model.find_path(start, goal)
-    
+
     assert len(path) == 1
     assert path[0][3] == "walk"
     assert model.states_examined > 1 # Proves A* explored alternatives
