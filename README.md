@@ -13,8 +13,8 @@ Given arbitrary start and destination coordinates, the program searches for a ro
 - U-Bahn connections weighted by travel time.
 - Transfer connections with a fixed transfer penalty.
 - A* search using a heuristic based on geographic distance.
-- Search statistics and route information, where implemented.
-- Optional search limits, where implemented.
+- Search statistics: maximum size of the sorted list, number of examined states, runtime.
+- Search limits: maximum path length `p_max` (default 40 actions) and time limit (default 1 s).
 
 ## Requirements ⚙️
 -> requirements.txt
@@ -22,7 +22,7 @@ Given arbitrary start and destination coordinates, the program searches for a ro
 Install the required packages with:
 
 ```bash
-python -m pip requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 
@@ -54,8 +54,24 @@ Ensure that the dataset CSV file is available at the path expected by the progra
 
 Run the project's entry-point script:
 
+Run all commands from the project root.
+
+Single route (start latitude, start longitude, goal latitude, goal longitude):
+
 ```bash
-python -m scripts.basic_run start_coordinate1 start_coordinate2 goal_coordinate1 goal_coordinate2
+python -m scripts.basic_run 52.5025 13.32555 52.50508 13.44904
+```
+
+All use cases (a-c) and edge cases (d-f) from the assignment:
+
+```bash
+python -m scripts.run_experiments
+```
+
+Tests:
+
+```bash
+python -m pytest
 ```
 
 ## Route cost model
@@ -86,8 +102,6 @@ The algorithm maintains a priority queue of candidate states and tracks the lowe
 
 ## Project structure
 
-Update this section to match the actual repository:
-
 ```text
 Ubahn_project/
 ├── dataset.csv
@@ -96,7 +110,10 @@ Ubahn_project/
 ├── cord.py
 ├── timer.py
 ├── tests/
+│   └── test_model.py
 ├── scripts/
+│   ├── basic_run.py
+│   └── run_experiments.py
 └── README.md
 ```
 
@@ -105,4 +122,6 @@ Ubahn_project/
 The calculated route depends on the provided dataset and the assumptions used by the model. The planner uses fixed walking speed and transfer time and does not model live train schedules, delays, or real-time disruptions.
 
 Search limits may prevent the algorithm from finding a route or proving that a returned route is optimal.
+
+Walking from the start / to the goal is allowed to every station within 20 minutes, and always to the 3 nearest stations. Walking the whole way is allowed up to 60 minutes.
 
